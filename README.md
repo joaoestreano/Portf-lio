@@ -30,7 +30,7 @@ Nesta seção, vou documentar a evolução do design visual, incluindo wireframe
 
  Este a seguir é (há principio) o design final para o portfólio, mas passivel de alterações ao longo do Projeto
 
- 
+ ![](Portf-lio/tree/main/Readme-img)
 
 ## 💻 Desenvolvimento Front-End
 
