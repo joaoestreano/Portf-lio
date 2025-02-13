@@ -32,8 +32,8 @@ Nesta seção, vou documentar a evolução do design visual, incluindo wireframe
 
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="Readme-img/Design-1.PNG" width="300" />
-  <img src="Readme-img/Color%20Theme.PNG" width="300" />
+  <img src="Readme-img/Design-1.PNG" width="400" />
+  <img src="Readme-img/Color%20Theme.PNG" width="600" />
 </div>
 
 
