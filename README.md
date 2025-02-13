@@ -62,7 +62,7 @@ Aqui vou compartilhar o andamento atual do projeto, mostrando a versão mais rec
 - [ ] Switcher de Tema
 
 ### Próximas Etapas:
-- [ ] Finalizar o design 
+- [X] Finalizar o design 
 - [ ] Criar Logo Pessoal em PaintToolSai
 - [ ] Responsividade
 
