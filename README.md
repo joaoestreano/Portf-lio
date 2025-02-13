@@ -28,6 +28,10 @@ Nesta seção, vou documentar a evolução do design visual, incluindo wireframe
 - Tipografia
 - Mockups
 
+ Este a seguir é (há principio) o design final para o portfólio, mas passivel de alterações ao longo do Projeto
+
+ 
+
 ## 💻 Desenvolvimento Front-End
 
 Aqui será documentado o desenvolvimento da interface do usuário, incluindo tecnologias utilizadas, componentes desenvolvidos, desafios enfrentados e como a experiência do usuário foi aprimorada.
