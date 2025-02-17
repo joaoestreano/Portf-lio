@@ -36,6 +36,11 @@ Nesta seção, vou documentar a evolução do design visual, incluindo wireframe
   <img src="Readme-img/Color%20Theme.PNG" width="600" />
 </div>
 
+<h4>Criação do tema Claro (17/02)</h4>
+<div style="display: flex; justify-content: space-around;">
+  <img src="Readme-img/Design-2.PNG" width="400" />
+</div>
+
 
 ## 💻 Desenvolvimento Front-End
 
@@ -49,7 +54,7 @@ Aqui será documentado o desenvolvimento da interface do usuário, incluindo tec
 
 Aqui vou compartilhar o andamento atual do projeto, mostrando a versão mais recente do portfólio, funcionalidades implementadas e próximas etapas planejadas.
 
-**Última atualização:** 13 de fevereiro de 2025  
+**Última atualização:** 17 de fevereiro de 2025  
 **Status:** Em andamento
 
 ### Funcionalidades Implementadas:
