@@ -65,6 +65,7 @@ Aqui vou compartilhar o andamento atual do projeto, mostrando a versão mais rec
 - [ ] hamburger Menu
 - [ ] Switcher de Idioma
 - [ ] Switcher de Tema
+- [ ] Musica Anbiente
 
 ### Próximas Etapas:
 - [X] Finalizar o design 
