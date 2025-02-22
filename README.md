@@ -52,7 +52,7 @@ Aqui será documentado o desenvolvimento da interface do usuário, incluindo tec
 
 ## 📈 Progresso Atual
 
-Acabo de Testar a funcionabilidade do menu do portfolio, mas ainda sem as funções finais. [Teste de Menu](Musica ambiente)
+Acabo de Testar a funcionabilidade do menu do portfolio, mas ainda sem as funções finais.
 
 **Última atualização:** 21 de fevereiro de 2025  
 **Status:** Em andamento
