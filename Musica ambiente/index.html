@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle de Música e Tema</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Menu Hamburguer -->
+  <div class="menu">
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <div id="menu-items" class="menu-items">
+      
+      <!-- Botão Música -->
+      <div class="dropdown">
+        <button class="dropbtn">Música</button>
+        <div class="dropdown-content">
+          <button onclick="toggleMusic()">Desligar/ligar música</button>
+          <button onclick="toggleMute()">Ativar/Desativar som</button>
+          <button onclick="changeMusic('music/sua-primeira-musica.mp3')">Música 1</button>
+          <button onclick="changeMusic('music/sua-segunda-musica.mp3')">Música 2</button>
+          <button onclick="changeMusic('music/sua-terceira-musica.mp3')">Música 3</button>
+        </div>
+      </div>
+      
+      <!-- Botão Tema -->
+      <div class="dropdown">
+        <button class="dropbtn">Tema</button>
+        <div class="dropdown-content">
+          <button onclick="changeTheme()">Mudar Tema</button>
+        </div>
+      </div>
+     
+      <!-- Botão Idioma -->
+      <div class="dropdown">
+        <button class="dropbtn">Idioma</button>
+        <div class="dropdown-content">
+          <button onclick="changeLanguage('pt')">Português</button>
+          <button onclick="changeLanguage('en')">English</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Player de Música -->
+  <audio id="musicaFundo" loop>
+    <source id="sourceMusica" src="music/sua-primeira-musica.mp3" type="audio/mp3">
+    Seu navegador não suporta a tag de áudio.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
