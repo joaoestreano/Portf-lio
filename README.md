@@ -52,9 +52,9 @@ Aqui será documentado o desenvolvimento da interface do usuário, incluindo tec
 
 ## 📈 Progresso Atual
 
-Aqui vou compartilhar o andamento atual do projeto, mostrando a versão mais recente do portfólio, funcionalidades implementadas e próximas etapas planejadas.
+Acabo de Testar a funcionabilidade do menu do portfolio, mas ainda sem as funções finais. [Teste de Menu](Musica ambiente)
 
-**Última atualização:** 17 de fevereiro de 2025  
+**Última atualização:** 21 de fevereiro de 2025  
 **Status:** Em andamento
 
 ### Funcionalidades Implementadas:
