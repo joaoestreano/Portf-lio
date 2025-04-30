@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: #0b1d33;
+  color: white;
+}
+
+.top-bar {
+  background: #071527;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #10263f;
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-top: 1px solid #1a3a5a;
+}
+
+.menu li button {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: none;
+  border: none;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+section {
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: #1a2c45;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.tools .icons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  background: #999;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #071527;
+  font-size: 0.8rem;
+}
+
+a {
+  color: #00e6e6;
+  text-decoration: none;
+}
+
+.carousel {
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-images {
+  position: relative;
+  height: 250px;
+}
+
+.carousel-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-img.active {
+  opacity: 1;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #00000080;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 18px;
+}
+
+.carousel-btn.prev {
+  left: 10px;
+}
+
+.carousel-btn.next {
+  right: 10px;
+}
