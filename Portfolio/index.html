@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - João Victor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="dark">
+  <header class="top-bar">
+    <h1 class="logo">Portfólio</h1>
+    <button id="menu-toggle" class="hamburger">☰</button>
+    <nav id="menu" class="menu hidden">
+      <ul>
+        <li><button onclick="toggleTheme()">Mudar Tema</button></li>
+        <li><button onclick="toggleLanguage()">Mudar Idioma</button></li>
+        <li><button onclick="toggleMusic()">Música Ambiente</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about">
+      <div class="profile">
+        <div class="avatar"></div>
+        <div class="info">
+          <h2>João Victor Estreano Nogueira Vaz Silva</h2>
+          <p id="diciplina">Fatec Jacareí – Desenvolvimento de Software Multiplataforma</p>
+        </div>
+      </div>
+      <h3 id="about">Sobre Mim</h3>
+      <p id="descricao">Estudante da Fatec Jacareí, no Segundo semestre de DSM (Desenvolvimento de software multiplataforma), cuja grade inclui: Algoritmo e lógica de programação, modelagem de Banco de dados, Banco de dados relacional, Estrutura de Dados, engenharia de software, sistemas operacionais e redes, desenvolvimento web e Design Digital. sociável e colaborativo, até mesmo líder de projeto web em trabalho universitário, sempre em busca de resolver problemas de maneira lógica e eficiente, utilizando principalmente Scrum</p>
+    </section>
+
+    <section class="projects">
+      <h3 id="fatecprojects">Projetos Fatec</h3>
+      <div class="grid">
+        <div class="card"><a href="https://github.com/Capydev-jac/Projeto-Ignis">
+          <h4 class="ProjetoT">Projeto Ignis</h4>
+          <p class="DescricaoT1">Projeto Semestral do 2º Semestre</p></a>
+        </div>
+        <div class="card">
+          <h4 class="ProjetoT">Projeto ABP 3</h4>
+          <p class="DescricaoT2">Descrição do projeto</p>
+        </div>
+        <div class="card">
+          <h4 class="ProjetoT">Projeto ABP 4</h4>
+          <p class="DescricaoT3">Descrição do projeto</p>
+        </div>
+        <div class="card">
+          <h4 class="ProjetoT">Projeto ABP 5</h4>
+          <p class="DescricaoT4">Descrição do projeto</p>
+        </div>
+        <div class="card">
+          <h4 class="ProjetoT">Projeto ABP 6</h4>
+          <p class="DescricaoT5">Descrição do projeto</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h3 id="personalprojects">Projetos Pessoais</h3>
+      <div class="grid">
+        <div class="card">
+          <h4 class="ProjetoP" id="project1">Projeto 1</h4>
+          <p class="DescricaoP1">Descrição do projeto</p>
+        </div>
+        <div class="card">
+          <h4 class="ProjetoP" id="project2">Projeto 2</h4>
+          <p class="DescricaoP2">Descrição do projeto</p>
+        </div>
+        <div class="card">
+          <h4 class="ProjetoP" id="project3">Projeto 3</h4>
+          <p class="DescricaoP3">Descrição do projeto</p>
+        </div>
+        <div class="card">
+          <h4 class="ProjetoP" id="project4">Projeto 4</h4>
+          <p class="DescricaoP4">Descrição do projeto</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="Ferramentas">
+      <div class="ferramenta">
+        <h2 id="tools">Ferramentas Utilizadas</h2>
+        <div class="icones">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30"
+            alt="javascript logo" />
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30"
+            alt="html5 logo" />
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30"
+            alt="css3 logo" />
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30"
+            alt="figma logo" />
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg" height="30"
+            alt="gimp logo" />
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30"
+            alt="github logo" />
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="30"
+            alt="linkedin logo" />
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30"
+            alt="postgresql logo" />
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30"
+            alt="vscode logo" />
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" height="30"
+            alt="trello logo" />
+        </div>
+      </div>
+    </section>
+
+    <section class="certificates">
+      <div class="container">
+        <h2 id="certificados">Certificados</h2>
+        <div class="carousel">
+          <div class="carousel-images">
+            <img src="img/contribuindo em um projeto.jpeg" class="carousel-img active" alt="Certificado 1" />
+            <img src="img/versionamento de codigo com git.jpeg" class="carousel-img" alt="Certificado 2" />
+          </div>
+          <button class="carousel-btn prev" onclick="prevImage()">❮</button>
+          <button class="carousel-btn next" onclick="nextImage()">❯</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>Contato: joaovictornog12@gmail.com</p>
+        <p><a href="https://www.linkedin.com/in/jo%C3%A3o-victor-vaz/">LinkedIn</a> | <a
+            href="https://github.com/joaoestreano">GitHub</a></p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
